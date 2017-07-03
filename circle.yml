@@ -1,0 +1,6 @@
+dependencies:
+  pre:
+    - gem install bundler --pre
+test:
+  override:
+    - bundle exec rspec --color --format documentation
